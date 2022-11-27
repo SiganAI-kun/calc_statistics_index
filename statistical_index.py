@@ -3,7 +3,7 @@ import statistics
 from scipy.stats.mstats import gmean
 import numpy as np
 
-# 分析対象の配列長を定義
+# 分析対象の配列を定義
 length = 100
 target = [random.randint(0,100) for i in range(length)]
 print(target)
